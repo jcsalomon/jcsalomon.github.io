@@ -1,0 +1,16 @@
+<header class="row">
+  <div class="col col_12">
+    <hgroup>
+      <h1>
+        {% if page.titleoverride %}
+          {{ page.titleoverride | xml_escape }}
+        {% else %}
+          {{ site.title | xml_escape }}
+        {% endif %}
+      </h1>
+      <h2>{{ site.subtitle | xml_escape }}</h2>
+    </hgroup>
+    {% include navbar.html %}
+    <hr />
+  </div>
+</header>

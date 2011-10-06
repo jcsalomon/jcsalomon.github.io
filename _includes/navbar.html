@@ -1,0 +1,8 @@
+<nav>
+  <ul>
+    <li><a {% unless page.isblog %}rel="up"{% endunless %}
+           href="/">Home</a></li>
+    <li><a {% if page.isblog %}rel="up"{% endif %}
+           href="/blog">Blog</a></li>
+  </ul>
+</nav>

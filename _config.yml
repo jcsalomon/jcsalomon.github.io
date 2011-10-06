@@ -1,0 +1,9 @@
+title:    "Joel’s Stuff"
+subtitle: "Engineering, Math, Programming, Politics"
+author:   "Joel C. Salomon"
+contact:  "joelcsalomon@gmail.com"
+github:   "https://github.com/jcsalomon"
+
+permalink: blog/:year-:month-:day-:title.html
+
+exclude: readme.md

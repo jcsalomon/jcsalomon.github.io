@@ -1,0 +1,39 @@
+/* Grid Stylesheet
+   Adapted from <http://www.1kbgrid.com/>
+   by way of 52framework
+   12 columns of 60px, with a 20px gutter
+*/
+
+.col {
+    margin-left:10px; margin-right:10px;
+    display: inline;
+    overflow: hidden;
+    float: left;
+    position: relative;
+}
+
+.row{
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.row .row {
+    margin: 0 -10px;
+    width: auto;
+    display: inline-block;
+}
+
+/* Column widths, and element width based on grid */
+
+.col_1,  .width_1  { width:60px;  }
+.col_2,  .width_2  { width:140px; }
+.col_3,  .width_3  { width:220px; }
+.col_4,  .width_4  { width:300px; }
+.col_5,  .width_5  { width:380px; }
+.col_6,  .width_6  { width:460px; }
+.col_7,  .width_7  { width:540px; }
+.col_8,  .width_8  { width:620px; }
+.col_9,  .width_9  { width:700px; }
+.col_10, .width_10 { width:780px; }
+.col_11, .width_11 { width:860px; }
+.col_12, .width_12 { width:940px; }
