@@ -20,5 +20,17 @@
          >{{ page.next.title }} »</a>
     </li>
     {% endif %}
+
+    <br />
+    <li>
+      {% if page.comments %}
+        <a href="#comments">
+          {{ page.comments }}
+          comment{% if page.comments > 1%}s{% endif %}
+        </a>
+      {% else %}
+        No comments
+      {% endif %}
+    </li>
   </ul>
 </nav>
