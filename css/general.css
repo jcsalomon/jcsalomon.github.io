@@ -96,12 +96,6 @@ article li {
     display: list-item;
 }
 
-article nav li {
-    display: inline;
-    font-size: 0.8em;
-    font-variant: small-caps;
-}
-
 section#comments {
     padding-left: 36px;
     padding-right: 36px;
@@ -127,6 +121,18 @@ footer {
 
 footer p {
     padding-top: 4px;
+}
+
+footer nav {
+    text-align:center;
+    padding-top: 8px;
+    padding-bottom: 4px;
+}
+
+footer nav li {
+    display: inline;
+/*  font-size: 0.8em; */
+    font-variant: small-caps;
 }
 
 sup {
