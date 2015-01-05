@@ -6,4 +6,4 @@ github:   "https://github.com/jcsalomon"
 
 permalink: blog/:year-:month-:day-:title.html
 
-exclude: readme.md
+exclude: [readme.md]
