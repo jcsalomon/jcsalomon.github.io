@@ -6,4 +6,4 @@ My Personal Site & Blog
 —Joel C. Salomon  
  October 2011
 
-[blog]: http://jcsalomon.github.com
+[blog]: http://jcsalomon.github.io
